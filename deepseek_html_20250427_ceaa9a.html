@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="立即在线畅玩《Shichuhui》- 沉浸式怪物幸存者动作游戏，挑战极限生存！">
+    <meta name="keywords" content="Shichuhui, 怪物幸存者, 在线游戏, 生存游戏, 动作游戏">
+    <link rel="canonical" href="https://shichuihui.shop" />
+    
+    <!-- Apple 风格配色 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .apple-bg { background-color: #f5f5f7; }
+        .apple-text { color: #1d1d1f; }
+        .apple-secondary { color: #86868b; }
+        .apple-border { border-color: #d2d2d7; }
+        .apple-button { 
+            background-color: #007AFF;
+            transition: all 0.3s ease;
+        }
+        .apple-button:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+    </style>
+    
+    <title>Shichuhui - 官方在线游戏平台 | 怪物幸存者动作游戏</title>
+</head>
+<body class="apple-bg apple-text min-h-screen">
+    <!-- 导航区 -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <span class="text-xl font-semibold">Shichuhui</span>
+                <a href="#play" class="apple-button text-white px-6 py-2 rounded-full">立即开玩</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容区 -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-center">欢迎来到《Shichuhui》世界</h1>
+        
+        <!-- 游戏简介 -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4">游戏特色</h2>
+            <p class="apple-secondary leading-relaxed mb-6 text-lg">
+                在这款紧张刺激的生存动作游戏中，您将扮演最后的幸存者，在怪物横行的世界里收集资源、升级装备并存活到最后！
+            </p>
+        </section>
+
+        <!-- 游戏窗口 -->
+        <section id="play" class="mb-12">
+            <h2 class="text-2xl font-semibold mb-6 text-center">立即开始游戏</h2>
+            <div class="aspect-video bg-gray-100 rounded-xl overflow-hidden shadow-lg">
+                <iframe 
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                    class="w-full h-full"
+                    allow="fullscreen"
+                    loading="lazy"
+                    title="Shichuhui 在线游戏窗口"
+                    frameborder="0">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- 游戏详情 -->
+        <section class="grid md:grid-cols-2 gap-8 mb-12">
+            <div>
+                <h2 class="text-2xl font-semibold mb-4">游戏玩法</h2>
+                <p class="apple-secondary leading-relaxed">
+                    融合Roguelike元素的生存挑战，每次游戏都能获得全新体验。通过收集随机掉落的装备组合，打造属于你的独特战斗风格。
+                </p>
+            </div>
+            <div>
+                <h2 class="text-2xl font-semibold mb-4">系统要求</h2>
+                <ul class="apple-secondary space-y-2">
+                    <li>✔ 支持所有现代浏览器</li>
+                    <li>✔ 移动端自动适配触控操作</li>
+                    <li>✔ 无需下载即点即玩</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="border-t apple-border mt-12">
+        <div class="max-w-6xl mx-auto px-4 py-8 text-center apple-secondary">
+            <p>© 2024 Shichuhui.shop 保留所有权利</p>
+            <p>推荐使用Chrome/Edge最新版本浏览器访问</p>
+        </div>
+    </footer>
+</body>
+</html>
